@@ -68,7 +68,7 @@ Please refer to the title page of the attached PDF report for the full list of c
 ## 👩‍🔬 About the Author
 
 **Pravalli Matta**  
-*PhD Student in Cognitive Science*  
+*B.Tech-MSc Dual Degree Student in Cognitive Science*  
 **Indian Institute of Technology (IIT) Gandhinagar**  
 *Research Focus: Decision-making, fMRI, EEG, Neural Correlates, and Cognitive Psychology.*
 
