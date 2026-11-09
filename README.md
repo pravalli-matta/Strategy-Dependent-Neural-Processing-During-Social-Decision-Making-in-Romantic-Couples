@@ -1,74 +1,47 @@
 # Strategy-Dependent Neural Processing During Social Decision-Making in Romantic Couples
 
-## 📋 Project Overview
+This project involved an exploratory analysis of an open-access fMRI dataset from a social decision-making task involving romantic couples. It was completed as part of the Human Brain Mapping course at IIT Gandhinagar (2026).
 
-This fMRI study investigates how romantic couples make social decisions and how different decision-making strategies are reflected in neural activity.
+## Background
 
-## 🎯 Research Focus
+Decisions within a couple can involve different strategies, such as yielding to a partner or insisting on one's own preference. The dataset provides an opportunity to examine brain activity associated with these interpersonal decision conditions.
 
-- **Social Decision-Making**: How individuals make choices that affect themselves and their partners
-- **Strategy Variations**: Comparing different decision-making approaches (e.g., self-focused vs. couple-focused)
-- **Neural Correlates**: Brain regions involved in romantic social decision-making
+## Analysis Questions
 
-## 🧠 Research Questions
+The analysis focused on contrasts between:
 
-1. How do romantic partners make decisions that involve trade-offs between personal and mutual benefits?
-2. What neural mechanisms underlie different decision-making strategies in couples?
-3. How does relationship quality influence neural processing during social decisions?
+- **Yield > Insist**
+- **Agree > Disagree**
 
-## 🔬 Methodology
+These contrasts were used to examine differences in BOLD responses associated with the task conditions. They should be understood as task-based comparisons, not as direct measures of broad relationship quality or stable decision-making traits.
 
-### Participants
-- Romantic couples
-- Assessment of relationship quality and satisfaction
+## Analysis Workflow
 
-### fMRI Paradigm
-- Decision-making tasks involving choices with personal and social consequences
-- Strategy manipulation conditions
-- Real-time neural imaging during decision processes
+The analysis was carried out using FSL FEAT and included:
 
-### Analysis
-- Whole-brain fMRI analysis
-- Region of interest (ROI) analysis
-- Functional connectivity analysis
-- Behavioral correlation with neural activity
+1. Preparing first-level general linear models (GLMs).
+2. Modelling task events with regressors convolved with the haemodynamic response function (HRF).
+3. Inspecting registration quality and model diagnostics.
+4. Reviewing carpet plots and correlations with nuisance regressors as part of quality control.
+5. Screening event timings and condition labels.
+6. Examining contrast maps in MNI space and interpreting their anatomical locations with reference to the Harvard–Oxford atlas.
 
-## 🧩 Expected Findings
+## Interpretation and Limitations
 
-- **Prefrontal Cortex**: Strategy implementation and cognitive control
-- **Striatum**: Reward processing for self and partner outcomes
-- **Temporoparietal Junction**: Mentalizing and perspective-taking
-- **Anterior Cingulate Cortex**: Conflict monitoring in social decisions
+The work is an exploratory, subject-level analysis of an existing dataset. The number and distribution of usable events, along with the scope of the analysis, limit the strength of conclusions that can be drawn. The contrasts describe differences associated with the modelled task conditions; they do not by themselves establish causal mechanisms, explain relationship outcomes, or support broad claims about all romantic couples.
 
-## 📄 Contents
+## Report
 
-- `Strategy-Dependent Neural Processing During Social Decision-Making in Romantic Couples.pdf` - Full fMRI research report
+[Read the project report (PDF)](Strategy-Dependent%20Neural%20Processing%20During%20Social%20Decision-Making%20in%20Romantic%20Couples.pdf)
 
-## 📚 Keywords
+## Methods and Tools
 
-fMRI, Social decision-making, Romantic relationships, Neural correlates, Prefrontal cortex, Reward processing, Social neuroscience
+fMRI, FSL FEAT, first-level GLM, HRF-convolved task regressors, registration quality control, nuisance-regressor inspection, MNI space, and Harvard–Oxford atlas.
 
-## 👤 Author
+## Project Details
 
-Pravalli Matta
-
-## 📅 Course
-
-Cognitive Science - Human Brain Mapping
-
-## 📅 Year
-
-2026
-
-### Contributors
-Please refer to the title page of the attached PDF report for the full list of contributors and team members.
-
----
-
-## 👩‍🔬 About the Author
-
-**Pravalli Matta**  
-*B.Tech-MSc Dual Degree Student in Cognitive Science*  
-**Indian Institute of Technology (IIT) Gandhinagar**  
-*Research Focus: Decision-making, fMRI, EEG, Neural Correlates, and Cognitive Psychology.*
-
+- **Course:** Human Brain Mapping
+- **Institution:** IIT Gandhinagar
+- **Instructor:** Prof. Vaibhav Tripathi
+- **Year:** 2026
+- **Author:** Pravalli Matta
